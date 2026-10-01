@@ -344,7 +344,7 @@ article.active {
   border: 1px solid var(--border-cyan-subtle);
   background: rgba(0, 242, 255, 0.08);
   color: var(--cyan-primary);
-  padding: 6px 14px;
+  padding: 6px 10px;
   border-radius: 8px;
   font-size: 12px;
   font-weight: 600;
