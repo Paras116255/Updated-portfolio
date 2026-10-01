@@ -5,38 +5,42 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Paras Kumar - Personal Portfolio</title>
+  <title>Paras Kumar — Senior DevOps Engineer & Cloud Architect</title>
 
-  <!--
-    - favicon
-  -->
+  <!-- Favicon -->
   <link rel="shortcut icon" href="./assets/images/my-avatar.png" type="image/x-icon">
 
-  <!--
-    - custom css link
-  -->
+  <!-- Custom CSS -->
   <link rel="stylesheet" href="./assets/css/style.css">
 
-  <!--
-    - google font link
-  -->
+  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-  <!--
-    - #MAIN
-  -->
+  <!-- Top System Status Header Bar -->
+  <div class="system-status-bar">
+    <div class="status-group">
+      <div class="status-badge">
+        <span class="status-dot"></span>
+        <span>SYSTEM STATUS: OPERATIONAL</span>
+      </div>
+      <div class="system-metric-tag">CLUSTER: <span>EKS-AWS-PROD-01</span></div>
+      <div class="system-metric-tag">UPTIME: <span>99.99% SLA</span></div>
+    </div>
+    <div class="status-group">
+      <div class="system-metric-tag">REGION: <span>us-east-1</span></div>
+      <div class="system-metric-tag">ENV: <span>PRODUCTION</span></div>
+    </div>
+  </div>
 
+  <!-- #MAIN -->
   <main>
 
-    <!--
-      - #SIDEBAR
-    -->
-
+    <!-- #SIDEBAR -->
     <aside class="sidebar" data-sidebar>
 
       <div class="sidebar-info">
@@ -44,1129 +48,798 @@
           <img class="profile-image" src="./assets/images/profile_image.jpeg" alt="Paras Kumar" width="80">
         </figure>
 
-        <!-- <div class="info-content">
-          <h1 class="name" title="Paras Kumar">Paras Kumar</h1>
-          <p class="title">Flutter | Android | iOS</p>
-        </div> -->
-
         <div class="info-content">
-          <h1 class="name" title="ParasKumar">Paras Kumar</h1>
-          <!-- <p class="title" title="Flutter | Android | iOS">Flutter | Android | iOS</p> -->
-          <p class="title">DevOps Engineer</p>
+          <h1 class="name" title="Paras Kumar">Paras Kumar</h1>
+          <p class="title">Senior DevOps Engineer</p>
+          <div class="devops-badges">
+            <span class="mini-badge">AWS</span>
+            <span class="mini-badge">Kubernetes</span>
+            <span class="mini-badge">Terraform</span>
+            <span class="mini-badge">DevSecOps</span>
+          </div>
         </div>
 
         <button class="info_more-btn" data-sidebar-btn>
           <span>Show Contacts</span>
-
-          <img src="assets/images/arrow-down-sign-to-navigate.png" width="10px" height="10px">
+          <ion-icon name="chevron-down"></ion-icon>
         </button>
-
       </div>
 
       <div class="sidebar-info_more">
-
         <div class="separator"></div>
 
         <ul class="contacts-list">
-
           <li class="contact-item">
-
             <div class="icon-box">
-              <img src="/assets/images/email.png" width="20px", height="20px">
+              <ion-icon name="mail-outline"></ion-icon>
             </div>
-
             <div class="contact-info">
               <p class="contact-title">Email</p>
-
               <a href="mailto:paraskumar116255@gmail.com" class="contact-link">paraskumar116255@gmail.com</a>
             </div>
-
           </li>
 
           <li class="contact-item">
-
             <div class="icon-box">
-              <img src="/assets/images/smartphone.png" width="20px", height="20px">
+              <ion-icon name="call-outline"></ion-icon>
             </div>
-
             <div class="contact-info">
               <p class="contact-title">Phone</p>
-
               <a href="tel:+919582416078" class="contact-link">+91 9582416078</a>
             </div>
-
           </li>
 
           <li class="contact-item">
-
             <div class="icon-box">
-              <img src="/assets/images/calendar.png" width="20px", height="20px">
+              <ion-icon name="calendar-outline"></ion-icon>
             </div>
-
             <div class="contact-info">
-              <p class="contact-title">Birthday</p>
-
-              <time datetime="1982-06-23">Feb 05, 1999</time>
+              <p class="contact-title">Experience</p>
+              <time datetime="2023-02-01">3+ Years IT & DevOps</time>
             </div>
-
           </li>
 
           <li class="contact-item">
-
             <div class="icon-box">
-              <img src="/assets/images/location.png" width="20px", height="20px">
+              <ion-icon name="location-outline"></ion-icon>
             </div>
-
             <div class="contact-info">
               <p class="contact-title">Location</p>
-
               <address>New Delhi, Delhi, India</address>
             </div>
-
           </li>
-
         </ul>
 
         <div class="separator"></div>
 
         <ul class="social-list">
-
           <li class="social-item">
-            <a href="https://github.com/Paras116255" target="_blank" class="social-link">
-              <img src="/assets/images/github-logo.png" width="25px" height="25px">
+            <a href="https://github.com/Paras116255" target="_blank" class="social-link" title="GitHub">
+              <img src="./assets/images/github-logo.png" alt="GitHub" width="20" height="20">
             </a>
           </li>
-
           <li class="social-item">
-            <a href="https://www.linkedin.com/in/paras-kumar-7285931a2/" target="_blank" class="social-link">
-              <img src="/assets/images/linkedin.png" width="25px" height="25px">
+            <a href="https://www.linkedin.com/in/paras-kumar-7285931a2/" target="_blank" class="social-link" title="LinkedIn">
+              <img src="./assets/images/linkedin.png" alt="LinkedIn" width="20" height="20">
             </a>
           </li>
-
           <li class="social-item">
-            <a href="https://www.instagram.com/parass__05/" target="_blank" class="social-link">
-              <img src="/assets/images/instagram.png" width="25px" height="25px">
+            <a href="https://www.instagram.com/parass__05/" target="_blank" class="social-link" title="Instagram">
+              <img src="./assets/images/instagram.png" alt="Instagram" width="20" height="20">
             </a>
           </li>
         </ul>
-
       </div>
 
     </aside>
 
-
-
-
-
-    <!--
-      - #main-content
-    -->
-
+    <!-- #MAIN-CONTENT -->
     <div class="main-content">
 
-      <!--
-        - #NAVBAR
-      -->
-
+      <!-- #NAVBAR -->
       <nav class="navbar">
-
         <ul class="navbar-list">
-
           <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>About</button>
+            <button class="navbar-link active" data-nav-link>About</button>
           </li>
-
           <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Resume</button>
           </li>
-
           <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Portfolio</button>
           </li>
-
           <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Blog</button>
           </li>
-
           <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Contact</button>
           </li>
-
         </ul>
-
       </nav>
 
-
-
-
-
-      <!--
-        - #ABOUT
-      -->
-
-      <article class="about  active" data-page="about">
-
+      <!-- #ABOUT -->
+      <article class="about active" data-page="about">
         <header>
-          <h2 class="h2 article-title">About me</h2>
+          <h2 class="h2 article-title">About Me</h2>
         </header>
 
         <section class="about-text">
           <p>
-            I bring a unique blend of full-stack development and DevOps skills, with hands-on experience in cloud-native tools like AWS, Docker, Jenkins, Kubernetes, and Terraform. My transition from web development to DevOps was driven by curiosity, self-initiative, and consistent project execution including CI/CD automation and infrastructure provisioning on AWS.
-            <br>
-            I thrive in fast-paced environments, learn quickly, and take ownership beyond my role when needed. I'm not just applying for a job — I’m ready to grow with the team, contribute from day one, and solve real-world problems with reliability and efficiency.
+            DevOps Engineer with 2+ years of dedicated DevOps experience and 3+ years of total IT experience bridging software engineering with cloud-native operations. Expert in managing multi-cloud infrastructure (AWS, DigitalOcean, Oracle Cloud), designing high-availability Kubernetes (EKS) clusters, and building robust, automated DevSecOps CI/CD pipelines.
           </p>
-          <header>
-            <h2 class="h4 article-title">Core Competencies</h2>
-          </header>
           <p>
-            • DevOps &amp; Cloud Automation: Hands-on experience with AWS (EC2, S3, IAM, EKS), infrastructure provisioning using Terraform, and configuration management with Ansible.<br>
-            • CI/CD Pipelines: Proficient in building end-to-end CI/CD pipelines using Jenkins and GitHub Actions for automated testing, integration, and deployment of Spring Boot and containerized applications.<br>
-            • Containerization &amp; Orchestration: Skilled in Docker for containerization and Kubernetes (EKS) for managing scalable, high-availability application deployments.<br>
-            • Monitoring &amp; Logging: Integrated Prometheus and Grafana for performance monitoring, alerting, and infrastructure observability.<br>
-            • Version Control &amp; Collaboration: Strong expertise in Git with platforms like GitHub, GitLab, and Bitbucket for effective source control and team collaboration.<br>
-            • Web Development Foundation: Prior experience in front-end (React, JavaScript, HTML/CSS) and back-end (Java) development, enabling better Dev and Ops synergy.<br>
-            • CMS &amp; E-commerce: Built and deployed CMS solutions using Shopify and WordPress, delivering scalable e-commerce functionality and responsive UIs.<br>
-            • Problem Solving &amp; Debugging: Excellent analytical skills with a proactive approach to identifying, diagnosing, and resolving system or pipeline issues.<br>
-            • Continuous Learning: Actively expanding cloud and DevOps expertise through hands-on projects, staying current with industry best practices, tools, and trends.
-          </p>
-          <header>
-            <h2 class="h4 article-title">Key Contributions</h2>
-          </header>
-          <p>
-            • Automated CI/CD Pipelines: Designed and implemented end-to-end CI/CD pipelines using Jenkins and GitHub Actions to streamline code integration, testing, and deployment across environments.<br>
-            • Infrastructure as Code (IaC): Provisioned scalable infrastructure on AWS using Terraform and automated server configurations with Ansible, reducing manual setup time and ensuring consistency.<br>
-            • Cloud-Native Deployments: Containerized Spring Boot applications using Docker and deployed them to AWS EC2 and EKS for improved scalability and high availability.<br>
-            • Cross-Functional Collaboration: Worked closely with developers, testers, designers, and cloud architects to ensure smooth delivery cycles and seamless user experiences.<br>
-            • Performance &amp; Reliability Enhancements: Integrated monitoring tools like Prometheus and Grafana to proactively identify issues and maintain application reliability in production.<br>
-            • Code Quality &amp; Best Practices: Delivered maintainable, modular code with a focus on DevOps principles, clean coding, and infrastructure reliability.<br>
-            • Continuous Improvement Mindset: Regularly explored and implemented modern DevOps practices, cloud technologies, and automation tools to improve deployment speed and system resilience.
-          </p>
-          <header>
-            <h2 class="h4 article-title">Updated Summary (May 2026)</h2>
-          </header>
-          <p>
-            DevOps Engineer with 2 years of hands-on experience in DevOps and a total of 3+ years of overall IT experience, including a strong background as a Software Engineer. Experienced managing Linux-based environments (RHEL/Ubuntu), cloud deployments on AWS, and implementing CI/CD automation and Infrastructure as Code. Proficient with Jenkins, Docker, Kubernetes, Ansible, and Terraform, and familiar with monitoring and observability using Prometheus and Grafana. Brings a solid software development foundation that enables effective collaboration with development teams and reliable, automation-driven deployments.
+            Specialized in Infrastructure as Code (Terraform, Ansible), container orchestration (Docker, Kubernetes, Helm), and real-time observability stacks (VictoriaMetrics, Prometheus, Grafana). Driven by high-reliability SLA targets, zero-downtime blue-green deployments, and proactive vulnerability scanning.
           </p>
         </section>
 
+        <!-- Interactive DevOps CLI Terminal -->
+        <section class="devops-terminal">
+          <div class="terminal-header">
+            <div class="terminal-dots">
+              <span class="dot-btn close"></span>
+              <span class="dot-btn min"></span>
+              <span class="dot-btn max"></span>
+            </div>
+            <div class="terminal-title">paras@devops-node-01:~ (zsh)</div>
+            <div class="terminal-actions">CLUSTER: EKS-PROD</div>
+          </div>
+          <div class="terminal-body" id="terminalConsole">
+            <div class="cmd-line"><span class="terminal-prompt">paras@devops-cluster:~$</span> <span>paras-cli --init</span></div>
+            <div class="terminal-output">
+[✔] Kubernetes Cluster: 12 Worker Nodes Healthy (AWS EKS)
+[✔] CI/CD Automation: Active (Jenkins + GitHub Actions + ArgoCD)
+[✔] Security Scanning: Enabled (Trivy + SonarQube DevSecOps)
+[✔] Observability: VictoriaMetrics & Grafana Alerting (100+ Servers Monitored)
+Type 'help' in CLI input or click quick commands below to explore.</div>
+            <div class="cmd-line">
+              <span class="terminal-prompt">paras@devops-cluster:~$</span>
+              <input type="text" class="cmd-input" id="cliInput" placeholder="type 'help', 'skills', 'projects'..." onkeydown="handleTerminalInput(event)">
+            </div>
+          </div>
+          <div class="terminal-quick-cmds">
+            <span style="color: var(--text-muted); font-size: 11px;">Quick CLI Run:</span>
+            <button class="quick-cmd-btn" onclick="executeCommand('status')">run status</button>
+            <button class="quick-cmd-btn" onclick="executeCommand('skills')">run skills</button>
+            <button class="quick-cmd-btn" onclick="executeCommand('projects')">run projects</button>
+            <button class="quick-cmd-btn" onclick="executeCommand('pipeline')">run pipeline</button>
+            <button class="quick-cmd-btn" onclick="executeCommand('clear')">clear</button>
+          </div>
+        </section>
 
-        <!--
-          - service
-        -->
+        <!-- Infrastructure Metrics Dashboard -->
+        <section class="metrics-grid">
+          <div class="metric-card">
+            <div class="icon-box">
+              <ion-icon name="server-outline"></ion-icon>
+            </div>
+            <div>
+              <div class="metric-val">100+</div>
+              <div class="metric-label">Linux Servers Monitored</div>
+            </div>
+          </div>
 
+          <div class="metric-card">
+            <div class="icon-box">
+              <ion-icon name="pulse-outline"></ion-icon>
+            </div>
+            <div>
+              <div class="metric-val">99.99%</div>
+              <div class="metric-label">Target Infrastructure Uptime</div>
+            </div>
+          </div>
+
+          <div class="metric-card">
+            <div class="icon-box">
+              <ion-icon name="cloud-done-outline"></ion-icon>
+            </div>
+            <div>
+              <div class="metric-val">500+</div>
+              <div class="metric-label">Automated Deployments</div>
+            </div>
+          </div>
+
+          <div class="metric-card">
+            <div class="icon-box">
+              <ion-icon name="code-working-outline"></ion-icon>
+            </div>
+            <div>
+              <div class="metric-val">3+ Yrs</div>
+              <div class="metric-label">IT & DevOps Expertise</div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Automated DevSecOps Pipeline Flow -->
+        <section class="pipeline-section">
+          <h3 class="section-h3">
+            <ion-icon name="git-network-outline" style="color: var(--cyan-primary)"></ion-icon>
+            Automated DevSecOps Pipeline Flow
+          </h3>
+          <div class="pipeline-flow">
+            <div class="pipeline-card">
+              <div class="pipeline-step-num">Step 01</div>
+              <div class="pipeline-step-name">Source & Git</div>
+              <div class="pipeline-status">✓ GitHub Action</div>
+            </div>
+
+            <div class="pipeline-card">
+              <div class="pipeline-step-num">Step 02</div>
+              <div class="pipeline-step-name">Build & Test</div>
+              <div class="pipeline-status">✓ Jenkins / Maven</div>
+            </div>
+
+            <div class="pipeline-card">
+              <div class="pipeline-step-num">Step 03</div>
+              <div class="pipeline-step-name">DevSecOps Scan</div>
+              <div class="pipeline-status">✓ Sonar & Trivy</div>
+            </div>
+
+            <div class="pipeline-card">
+              <div class="pipeline-step-num">Step 04</div>
+              <div class="pipeline-step-name">Container Push</div>
+              <div class="pipeline-status">✓ Docker ECR</div>
+            </div>
+
+            <div class="pipeline-card">
+              <div class="pipeline-step-num">Step 05</div>
+              <div class="pipeline-step-name">K8s GitOps</div>
+              <div class="pipeline-status">✓ ArgoCD / EKS</div>
+            </div>
+
+            <div class="pipeline-card">
+              <div class="pipeline-step-num">Step 06</div>
+              <div class="pipeline-step-name">Observability</div>
+              <div class="pipeline-status">✓ Grafana Alerts</div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Services / What I Do -->
         <section class="service">
-
-          <h3 class="h3 service-title">What i'm doing</h3>
-
+          <h3 class="h3 service-title" style="margin-top: 24px;">Core Engineering Capabilities</h3>
           <ul class="service-list">
             <li class="service-item">
-
               <div class="service-icon-box">
-                <img src="./assets/images/icon-dev.svg" alt="DevOps engineering icon" width="40">
+                <img src="./assets/images/icon-dev.svg" alt="DevOps icon" width="30">
               </div>
-
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">DevOps Engineering</h4>
-
+                <h4 class="h4 service-item-title">DevOps & Cloud Architecture</h4>
                 <p class="service-item-text">
-                  Automating scalable infrastructure and CI/CD pipelines to deliver reliable applications across cloud environments.
+                  Automating scalable multi-cloud infrastructure on AWS, DigitalOcean, and Oracle Cloud using Terraform IaC and Ansible.
                 </p>
               </div>
-
             </li>
 
             <li class="service-item">
-
               <div class="service-icon-box">
-                <img src="./assets/images/laptop.png" alt="mobile app icon" width="40">
+                <ion-icon name="git-branch-outline" style="font-size: 24px; color: var(--cyan-primary)"></ion-icon>
               </div>
-
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Website Development</h4>
-
+                <h4 class="h4 service-item-title">CI/CD & DevSecOps Pipelines</h4>
                 <p class="service-item-text">
-                  Professional development of Web applications for Every Device.
+                  Designing zero-downtime CI/CD workflows using Jenkins, GitHub Actions, SonarQube quality gates, and Trivy security scanning.
                 </p>
               </div>
-
             </li>
 
             <li class="service-item">
-
               <div class="service-icon-box">
-                <img src="./assets/images/buttons.png" alt="camera icon" width="40">
+                <ion-icon name="layers-outline" style="font-size: 24px; color: var(--cyan-primary)"></ion-icon>
               </div>
-
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Gaming</h4>
-
+                <h4 class="h4 service-item-title">Kubernetes & Containerization</h4>
                 <p class="service-item-text">
-                  I try to play like a professionals.
+                  Dockerizing microservices and managing production Amazon EKS clusters with Helm charts and ArgoCD GitOps.
                 </p>
               </div>
-
             </li>
 
-          </ul>
-
-        </section>
-
-
-        <!--
-          - testimonials
-        -->
-
-        <section class="testimonials">
-
-          <h3 class="h3 testimonials-title">Testimonials</h3>
-
-          <ul class="testimonials-list has-scrollbar">
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-1.png" alt="Client From USA" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Freelance Client Influencer Chinki Minki</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Working with Paras Kumar has been an absolute game-changer for our business. From developing a stunning, user-friendly website to crafting eye-catching graphics that truly represent our brand, their expertise is unmatched. Their SEO strategies have significantly improved our online visibility, driving more traffic and leads than ever before. The team's professionalism, creativity, and attention to detail make them stand out. If you’re looking for a one-stop solution for web development, graphic design, and SEO, I highly recommend Paras Kumar!
-                  </p>
-                </div>
-
+            <li class="service-item">
+              <div class="service-icon-box">
+                <ion-icon name="stats-chart-outline" style="font-size: 24px; color: var(--cyan-primary)"></ion-icon>
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Observability & Site Reliability</h4>
+                <p class="service-item-text">
+                  Configuring Prometheus, VictoriaMetrics, and Grafana dashboards for proactive alerting across 100+ production Linux servers.
+                </p>
               </div>
             </li>
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
+          </ul>
+        </section>
 
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-1.png" alt="Client From USA" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Freelance Client - Nitin Singhania</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    I couldn’t be happier with the services provided by Paras Kumar. They built a sleek, high-performing website that perfectly aligns with our brand. Their graphic design work has given our marketing materials a professional and modern touch, making a lasting impression on our customers. On top of that, their SEO expertise has dramatically improved our search rankings, bringing in more organic traffic and potential clients. The team is highly skilled, responsive, and truly invested in helping businesses grow. I highly recommend them to anyone looking for top-quality digital services!
-                  </p>
+        <!-- Testimonials -->
+        <section class="testimonials" style="margin-top: 32px;">
+          <h3 class="h3 testimonials-title">Client Feedback</h3>
+          <ul class="testimonials-list">
+            <li class="testimonials-item" data-testimonials-item>
+              <div class="testimonial-card">
+                <h4 class="testimonial-author" data-testimonials-title>Freelance Client — Chinki Minki</h4>
+                <div class="testimonial-quote" data-testimonials-text>
+                  "Working with Paras Kumar has been an absolute game-changer. From automating high-speed deployments to building high-performing web platforms, his technical expertise and commitment to reliability are unmatched!"
                 </div>
-
+                <img src="./assets/images/avatar-1.png" alt="Avatar" style="display:none;" data-testimonials-avatar>
               </div>
             </li>
 
+            <li class="testimonials-item" data-testimonials-item>
+              <div class="testimonial-card">
+                <h4 class="testimonial-author" data-testimonials-title>Freelance Client — Nitin Singhania</h4>
+                <div class="testimonial-quote" data-testimonials-text>
+                  "Paras built a sleek, high-performing application ecosystem for us. His cloud infrastructure setup and DevOps practices drastically improved our operational efficiency and organic scalability."
+                </div>
+                <img src="./assets/images/avatar-1.png" alt="Avatar" style="display:none;" data-testimonials-avatar>
+              </div>
+            </li>
           </ul>
-
         </section>
 
-
-        <!--
-          - testimonials modal
-        -->
-
+        <!-- Testimonials Modal -->
         <div class="modal-container" data-modal-container>
-
           <div class="overlay" data-overlay></div>
-
           <section class="testimonials-modal">
-
             <button class="modal-close-btn" data-modal-close-btn>
               <ion-icon name="close-outline"></ion-icon>
             </button>
-
-            <div class="modal-img-wrapper">
-              <figure class="modal-avatar-box">
-                <img src="./assets/images/avatar-1.png" alt="Client From USA" width="80" data-modal-img>
-              </figure>
-
-              <img src="./assets/images/icon-quote.svg" alt="quote icon">
-            </div>
-
             <div class="modal-content">
-
-              <h4 class="h3 modal-title" data-modal-title>Freelance Client Influencer Chinki Minki</h4>
-
-              <time datetime="2021-06-14">24 March, 2025</time>
-
+              <h4 class="h3 modal-title" data-modal-title>Client Review</h4>
+              <time datetime="2025-03-24">March 2025</time>
               <div data-modal-text>
-                <p>
-                  Working with Paras Kumar has been an absolute game-changer for our business. From developing a stunning, user-friendly website to crafting eye-catching graphics that truly represent our brand, their expertise is unmatched. Their SEO strategies have significantly improved our online visibility, driving more traffic and leads than ever before. The team's professionalism, creativity, and attention to detail make them stand out. If you’re looking for a one-stop solution for web development, graphic design, and SEO, I highly recommend Paras Kumar!
-                </p>
+                <p>Detailed client endorsement.</p>
               </div>
-
             </div>
-
           </section>
-          
         </div>
-
-
-        <!--
-          - clients
-        -->
-
-        <!-- <section class="clients">
-
-          <h3 class="h3 clients-title">Clients</h3>
-
-          <ul class="clients-list has-scrollbar">
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-1-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-2-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-3-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-4-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-5-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-6-color.png" alt="client logo">
-              </a>
-            </li>
-
-          </ul>
-
-        </section> -->
-
       </article>
 
-
-
-
-
-      <!--
-        - #RESUME
-      -->
-
+      <!-- #RESUME -->
       <article class="resume" data-page="resume">
-
         <header>
-          <h2 class="h2 article-title">Resume</h2>
+          <h2 class="h2 article-title">Resume & Experience</h2>
         </header>
 
+        <!-- Experience Timeline -->
         <section class="timeline">
-
-          <div class="title-wrapper">
+          <div class="timeline-header">
             <div class="icon-box">
-              <img src="/assets/images/book.png" width="20px", height="20px">
+              <ion-icon name="briefcase-outline"></ion-icon>
             </div>
+            <h3 class="h3">DevOps & IT Work Experience</h3>
+          </div>
 
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">DevOps Engineer</h4>
+              <div class="timeline-company">Roadcast — New Delhi</div>
+              <span class="timeline-badge-date">Jan 2026 — Present</span>
+              <p class="timeline-text">
+                <strong>Tech Stack:</strong> AWS, DigitalOcean, Oracle Cloud, Kafka, Terraform, Ansible, Jenkins, GitHub Actions, ArgoCD, VictoriaMetrics, Grafana, Kubernetes, Docker.<br><br>
+                • Designed and automated CI/CD pipelines using Jenkins, GitHub Actions, and ArgoCD for multi-environment zero-downtime releases.<br>
+                • Provisioned and managed multi-cloud infrastructure across AWS, DigitalOcean, and Oracle Cloud using Terraform IaC and Ansible.<br>
+                • Orchestrated containerized workloads on Kubernetes (EKS) with custom Helm charts for templated deployments.<br>
+                • Implemented centralized monitoring with VictoriaMetrics and Grafana for 100+ Linux servers, improving observability and incident response.<br>
+                • Managed Kafka real-time data streaming clusters and administered production PostgreSQL & MySQL databases.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">DevOps Engineer & Software Developer</h4>
+              <div class="timeline-company">JewelMond Precious Pvt. Ltd. — Delhi</div>
+              <span class="timeline-badge-date">Feb 2023 — Dec 2025</span>
+              <p class="timeline-text">
+                <strong>Tech Stack:</strong> AWS (EC2, S3, IAM, VPC, Route 53), Linux (Ubuntu/RHEL), Docker, Kubernetes (EKS), Jenkins, Terraform, Ansible, Prometheus, Grafana, React, WordPress, Shopify.<br><br>
+                • Developed and maintained full-stack React, WordPress, and Shopify web applications; integrated REST APIs and optimized system performance.<br>
+                • Built automated Jenkins and Git CI/CD pipelines for automated unit testing, static code analysis, and continuous deployment.<br>
+                • Automated server configuration and provisioning using Ansible and Terraform, cutting manual setup time by 75%.<br>
+                • Containerized workloads with Docker and deployed high-availability services to Amazon EKS.<br>
+                • Administered Linux servers (RHEL/Ubuntu) and established Prometheus & Grafana telemetry.
+              </p>
+            </li>
+          </ol>
+        </section>
+
+        <!-- Education Timeline -->
+        <section class="timeline">
+          <div class="timeline-header">
+            <div class="icon-box">
+              <ion-icon name="school-outline"></ion-icon>
+            </div>
             <h3 class="h3">Education</h3>
           </div>
 
           <ol class="timeline-list">
-
             <li class="timeline-item">
-
               <h4 class="h4 timeline-item-title">Amity University</h4>
-
-              <span>2021 — 2023</span>
-
-              <p class="timeline-text">
-                Master In Computer Applications (MCA)
-                <br>
-                Grade: 7.62 GPA
-                </br>
-
-              </p>
-
+              <div class="timeline-company">Master in Computer Applications (MCA)</div>
+              <span class="timeline-badge-date">2021 — 2023</span>
+              <p class="timeline-text">Grade: 7.62 GPA | Specialization in Computer Systems & Software Architecture</p>
             </li>
 
             <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">SOL Delhi University</h4>
-
-              <span>2017 — 2020</span>
-
-              <p class="timeline-text">
-                B.Comm in Management
-                <br>
-                Grade: 65%
-                </br>
-              </p>
-
+              <h4 class="h4 timeline-item-title">Delhi University (SOL)</h4>
+              <div class="timeline-company">B.Com in Management</div>
+              <span class="timeline-badge-date">2017 — 2020</span>
+              <p class="timeline-text">Grade: 65% | Focus on Business Systems & Operations</p>
             </li>
-
           </ol>
-
         </section>
 
-        <section class="timeline">
+        <!-- Tech Matrix & Skills -->
+        <section class="skills-section">
+          <h3 class="h3 skills-title" style="margin-bottom: 18px;">Tech Stack & DevOps Skills Matrix</h3>
+          <div class="skills-grid-container">
 
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <img src="/assets/images/book.png" width="20px", height="20px">
+            <div class="skill-category-card">
+              <h4 class="cat-title">
+                <ion-icon name="cloud-outline"></ion-icon> Cloud & IaC
+              </h4>
+              <div class="tech-tags-wrapper">
+                <span class="tech-tag">AWS (EKS, EC2, S3, IAM, VPC)</span>
+                <span class="tech-tag">Terraform IaC</span>
+                <span class="tech-tag">Ansible</span>
+                <span class="tech-tag">DigitalOcean</span>
+                <span class="tech-tag">Oracle Cloud</span>
+                <span class="tech-tag">GCP</span>
+              </div>
+              <div class="skill-progress-bar"><div class="skill-progress-fill" style="width: 90%;"></div></div>
             </div>
 
-            <h3 class="h3">Experience</h3>
+            <div class="skill-category-card">
+              <h4 class="cat-title">
+                <ion-icon name="cube-outline"></ion-icon> Containers & K8s
+              </h4>
+              <div class="tech-tags-wrapper">
+                <span class="tech-tag">Docker</span>
+                <span class="tech-tag">Kubernetes (EKS)</span>
+                <span class="tech-tag">Helm Charts</span>
+                <span class="tech-tag">ArgoCD</span>
+                <span class="tech-tag">Microservices</span>
+              </div>
+              <div class="skill-progress-bar"><div class="skill-progress-fill" style="width: 88%;"></div></div>
+            </div>
+
+            <div class="skill-category-card">
+              <h4 class="cat-title">
+                <ion-icon name="git-network-outline"></ion-icon> CI/CD & DevSecOps
+              </h4>
+              <div class="tech-tags-wrapper">
+                <span class="tech-tag">Jenkins</span>
+                <span class="tech-tag">GitHub Actions</span>
+                <span class="tech-tag">SonarQube</span>
+                <span class="tech-tag">Trivy Scan</span>
+                <span class="tech-tag">OWASP DC</span>
+                <span class="tech-tag">Git</span>
+              </div>
+              <div class="skill-progress-bar"><div class="skill-progress-fill" style="width: 92%;"></div></div>
+            </div>
+
+            <div class="skill-category-card">
+              <h4 class="cat-title">
+                <ion-icon name="analytics-outline"></ion-icon> Observability & OS
+              </h4>
+              <div class="tech-tags-wrapper">
+                <span class="tech-tag">Prometheus</span>
+                <span class="tech-tag">Grafana</span>
+                <span class="tech-tag">VictoriaMetrics</span>
+                <span class="tech-tag">Linux (Ubuntu/RHEL)</span>
+                <span class="tech-tag">Bash / Shell</span>
+                <span class="tech-tag">Kafka</span>
+                <span class="tech-tag">NGINX</span>
+              </div>
+              <div class="skill-progress-bar"><div class="skill-progress-fill" style="width: 85%;"></div></div>
+            </div>
+
           </div>
-
-          <ol class="timeline-list">
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">DevOps Engineer</h4>
-              <span>Roadcast — New Delhi</span>
-
-              <span>Jan 2026 — Present</span>
-
-              <p class="timeline-text">
-                <strong>Tech Stack:</strong> AWS, DigitalOcean, Oracle Cloud, Kafka, Terraform, Ansible, Jenkins, GitHub Actions, VictoriaMetrics, Grafana, Kubernetes, Docker.<br>
-                • Designed and automated CI/CD pipelines using Jenkins, GitHub Actions, and ArgoCD for faster, consistent multi-environment deployments.<br>
-                • Provisioned and managed multi-cloud infrastructure across AWS, DigitalOcean, and Oracle Cloud using Terraform and Ansible.<br>
-                • Orchestrated containerized workloads on Kubernetes with Helm charts for templated, scalable deployments.<br>
-                • Implemented centralized monitoring and alerting with VictoriaMetrics and Grafana for 100+ Linux servers, improving visibility and reducing incident detection time.<br>
-                • Worked with Kafka for real-time data processing and administered PostgreSQL and MySQL databases across production environments.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">DevOps Engineer &amp; Software Developer</h4>
-              <span>JewelMond Precious Pvt. Ltd. — Delhi</span>
-              <span>Feb 2023 — Dec 2025</span>
-
-              <p class="timeline-text">
-                <strong>Tech Stack:</strong> AWS (EC2, S3, IAM, VPC, Route 53), Linux (RHEL/Ubuntu), Git, Jenkins, Docker, Kubernetes (EKS), Terraform, Ansible, Prometheus, Grafana, React, WordPress, Shopify, HTML, CSS, JavaScript<br>
-                • Developed and maintained React, WordPress, and Shopify applications; integrated REST APIs and optimized application performance.<br>
-                • Designed and maintained Jenkins and Git CI/CD pipelines, automating build, test, and deployment workflows.<br>
-                • Provisioned scalable AWS infrastructure using Terraform and automated server configuration and application deployment with Ansible.<br>
-                • Containerized applications with Docker and deployed production workloads to Amazon EKS for high availability and reliable releases.<br>
-                • Administered Ubuntu/RHEL servers, automated operations, resolved deployment issues, and implemented Prometheus and Grafana monitoring.
-              </p>
-
-            </li>
-
-          </ol>
-
         </section>
-
-        <section class="skill">
-
-          <h3 class="h3 skills-title">My skills</h3>
-
-          <ul class="skills-list content-card">
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">CI/CD: Jenkins, GitHub Actions &amp; ArgoCD</h5>
-                <data value="90">90%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 90%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Cloud &amp; IaC: AWS, GCP, Terraform &amp; Ansible</h5>
-                <data value="85">85%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 85%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Containers: Docker, Kubernetes &amp; Helm</h5>
-                <data value="85">85%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 85%;"></div>
-              </div>
-
-            </li>
-
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Monitoring: Prometheus, Grafana &amp; ELK</h5>
-                <data value="80">80%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 80%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Linux, Bash, Python, Shell &amp; CRON</h5>
-                <data value="85">85%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 85%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">DevSecOps: IAM, OWASP DC, Secrets Scanning &amp; Trivy</h5>
-                <data value="80">80%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 80%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Web Infrastructure: NGINX, Load Balancers &amp; API Gateway</h5>
-                <data value="80">80%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 80%;"></div>
-              </div>
-
-            </li>
-
-          </ul>
-
-        </section>
-
       </article>
 
-
-
-
-
-      <!--
-        - #PORTFOLIO
-      -->
-
+      <!-- #PORTFOLIO -->
       <article class="portfolio" data-page="portfolio">
-
         <header>
-          <h2 class="h2 article-title">Portfolio</h2>
+          <h2 class="h2 article-title">Project Portfolio</h2>
         </header>
 
         <section class="projects">
 
           <ul class="filter-list">
-
-            <li class="filter-item">
-              <button class="active" data-filter-btn>All</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Web development</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>DevOps</button>
-            </li>
-
+            <li class="filter-item"><button class="filter-btn active" data-filter-btn>All</button></li>
+            <li class="filter-item"><button class="filter-btn" data-filter-btn>DevOps</button></li>
+            <li class="filter-item"><button class="filter-btn" data-filter-btn>Web Development</button></li>
           </ul>
 
           <div class="filter-select-box">
-
             <button class="filter-select" data-select>
-
-              <div class="select-value" data-selecct-value>Select category</div>
-
-              <div class="select-icon">
-                <ion-icon name="chevron-down"></ion-icon>
-              </div>
-
+              <div class="select-value" data-selecct-value>Select Category</div>
+              <ion-icon name="chevron-down"></ion-icon>
             </button>
-
             <ul class="select-list">
-
-              <li class="select-item">
-                <button data-select-item>All</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Web development</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>DevOps</button>
-              </li>
-
+              <li class="select-item"><button data-select-item>All</button></li>
+              <li class="select-item"><button data-select-item>DevOps</button></li>
+              <li class="select-item"><button data-select-item>Web Development</button></li>
             </ul>
-
           </div>
 
-          <ul class="project-list">
+          <div class="project-grid">
 
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="https://frabica.com/">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <h3>View</h3>
-                  </div>
-
-                  <img src="./assets/images/frabica.png" alt="finance" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Frabica.com</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="https://oneoftwo.in/">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <h3>View</h3>
-                  </div>
-
-                  <img src="./assets/images/oneoftwo.png" alt="orizon" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Oneoftwo.in</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="https://hypexmarketing.in/">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <h3>View</h3>
-                  </div>
-
-                  <img src="./assets/images/hypeX.png" alt="orizon" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Hypexmarketing.in</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="https://www.trendzmy.com/">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <h3>View</h3>
-                  </div>
-
-                  <img src="./assets/images/trendzmy.com.png" alt="orizon" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Trendzmy.com</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="https://www.mystitch.co.in/">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <h3>View</h3>
-                  </div>
-
-                  <img src="./assets/images/mystitch.co.in.png" alt="orizon" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Mystitch.co.in</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="https://balajiinternetservice.in/">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <h3>View</h3>
-                  </div>
-
-                  <img src="./assets/images/balaji.png" alt="orizon" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Balajiinternetservice.in</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <!-- DevOps Projects -->
-
-            <li class="project-item  active" data-filter-item data-category="devops">
-              <a href="https://github.com/Paras116255/Netflix-DevSecOps-NewProject" target="_blank">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <h3>View</h3>
-                  </div>
-
+            <!-- DevOps Project 1 -->
+            <div class="project-item active" data-filter-item data-category="devops">
+              <div class="project-card">
+                <div class="project-img-box">
                   <img src="./assets/images/devops-netflix.svg" alt="Netflix DevSecOps" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Netflix Clone — DevSecOps</h3>
-
-                <p class="project-category">DevOps</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="devops">
-              <a href="https://github.com/Paras116255/Zomato-DevOps-Project" target="_blank">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <h3>View</h3>
-                  </div>
-
-                  <img src="./assets/images/devops-zomato.svg" alt="Zomato DevOps" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Zomato Clone — DevOps Pipeline</h3>
-
-                <p class="project-category">DevOps</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="devops">
-              <a href="https://github.com/Paras116255/BookMyShow-DevOpsProject" target="_blank">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <h3>View</h3>
-                  </div>
-
-                  <img src="./assets/images/devops-bookmyshow.svg" alt="BookMyShow DevOps" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">BookMyShow — DevOps Project</h3>
-
-                <p class="project-category">DevOps</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="devops">
-              <a href="https://github.com/Paras116255/Blue-Green-Deployment-Devops-project" target="_blank">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <h3>View</h3>
-                  </div>
-
-                  <img src="./assets/images/devops-bluegreen.svg" alt="Blue-Green Deployment" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Blue-Green Deployment Strategy</h3>
-
-                <p class="project-category">DevOps</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="devops">
-              <a href="https://github.com/Paras116255/DevSecOps-amazon-project" target="_blank">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <h3>View</h3>
-                  </div>
-
-                  <img src="./assets/images/devops-amazon.svg" alt="Amazon DevSecOps" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Amazon Clone — DevSecOps</h3>
-
-                <p class="project-category">DevOps</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="devops">
-              <a href="https://github.com/Paras116255/flipkart-clone-devsecops" target="_blank">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <h3>View</h3>
-                  </div>
-
-                  <img src="./assets/images/devops-flipkart.svg" alt="Flipkart DevSecOps" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Flipkart Clone — DevSecOps</h3>
-
-                <p class="project-category">DevOps</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="devops">
-              <a href="https://github.com/Paras116255/Automate-Jenkins-Terraform-EKS" target="_blank">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <h3>View</h3>
-                  </div>
-
-                  <img src="./assets/images/devops-jenkins-eks.svg" alt="Jenkins Terraform EKS" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Automate Jenkins + Terraform + EKS</h3>
-
-                <p class="project-category">DevOps</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="devops">
-              <a href="https://github.com/Paras116255/Kubernetes-hotstar" target="_blank">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <h3>View</h3>
-                  </div>
-
-                  <img src="./assets/images/devops-hotstar.svg" alt="Hotstar Kubernetes" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Hotstar Clone — Kubernetes</h3>
-
-                <p class="project-category">DevOps</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="devops">
-              <a href="https://github.com/Paras116255/Microservice" target="_blank">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <h3>View</h3>
-                  </div>
-
-                  <img src="./assets/images/devops-microservice.svg" alt="Microservice DevOps" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Microservice Architecture — K8s</h3>
-
-                <p class="project-category">DevOps</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="devops">
-              <a href="https://github.com/Paras116255/DevOps-WanderLust-Mega-Project" target="_blank">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <h3>View</h3>
-                  </div>
-
-                  <img src="./assets/images/devops-wanderlust.svg" alt="WanderLust DevOps" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">WanderLust — DevOps Mega Project</h3>
-
-                <p class="project-category">DevOps</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="devops">
-              <a href="https://github.com/Paras116255/EKS-terraform" target="_blank">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <h3>View</h3>
-                  </div>
-
-                  <img src="./assets/images/devops-eks-terraform.svg" alt="EKS Terraform" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">EKS Cluster — Terraform IaC</h3>
-
-                <p class="project-category">DevOps</p>
-
-              </a>
-            </li>
-
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-
-
-      <!--
-        - #BLOG
-      -->
-
-      <article class="blog" data-page="blog">
-
-        <header>
-          <h2 class="h2 article-title">Blog</h2>
-        </header>
-
-        <section class="blog-posts">
-
-          <ul class="blog-posts-list">
-
-            <li class="blog-post-item">
-              <a href="https://roadmap.sh/devops"
-                target="_blank">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/devops.png" alt="Exploring the Stripe Payment Gateway In Flutter"
-                    loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">DevOps</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-07-27">Jul 27, 2022 · 7 min read</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">RoadMap For Devops</h3>
-
-                  <p class="blog-text">
-                    Get Ready to become Devops Engineer With me.
-                  </p>
-
                 </div>
+                <div class="project-content">
+                  <div class="project-badge-tag">DevSecOps Pipeline</div>
+                  <h3 class="project-title">Netflix Clone — DevSecOps</h3>
+                  <p class="project-desc">End-to-end CI/CD with Jenkins, SonarQube code quality, Trivy security vulnerability scanner & Docker deployment on EKS.</p>
+                  <div class="project-footer">
+                    <span class="mini-badge">Jenkins + K8s</span>
+                    <a href="https://github.com/Paras116255/Netflix-DevSecOps-NewProject" target="_blank" class="project-link-btn">
+                      <span>GitHub</span> <ion-icon name="open-outline"></ion-icon>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-              </a>
-            </li>
+            <!-- DevOps Project 2 -->
+            <div class="project-item active" data-filter-item data-category="devops">
+              <div class="project-card">
+                <div class="project-img-box">
+                  <img src="./assets/images/devops-zomato.svg" alt="Zomato DevOps" loading="lazy">
+                </div>
+                <div class="project-content">
+                  <div class="project-badge-tag">DevOps Automation</div>
+                  <h3 class="project-title">Zomato Clone — DevOps Pipeline</h3>
+                  <p class="project-desc">Automated Docker build pipelines, Kubernetes manifests, Helm templating, and Prometheus monitoring dashboard.</p>
+                  <div class="project-footer">
+                    <span class="mini-badge">Docker + Helm</span>
+                    <a href="https://github.com/Paras116255/Zomato-DevOps-Project" target="_blank" class="project-link-btn">
+                      <span>GitHub</span> <ion-icon name="open-outline"></ion-icon>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-          </ul>
+            <!-- DevOps Project 3 -->
+            <div class="project-item active" data-filter-item data-category="devops">
+              <div class="project-card">
+                <div class="project-img-box">
+                  <img src="./assets/images/devops-bookmyshow.svg" alt="BookMyShow DevOps" loading="lazy">
+                </div>
+                <div class="project-content">
+                  <div class="project-badge-tag">Cloud Infrastructure</div>
+                  <h3 class="project-title">BookMyShow — DevOps Pipeline</h3>
+                  <p class="project-desc">Continuous Deployment strategy with GitHub Actions, Terraform AWS infrastructure, and EKS cluster orchestration.</p>
+                  <div class="project-footer">
+                    <span class="mini-badge">AWS EKS</span>
+                    <a href="https://github.com/Paras116255/BookMyShow-DevOpsProject" target="_blank" class="project-link-btn">
+                      <span>GitHub</span> <ion-icon name="open-outline"></ion-icon>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
 
+            <!-- DevOps Project 4 -->
+            <div class="project-item active" data-filter-item data-category="devops">
+              <div class="project-card">
+                <div class="project-img-box">
+                  <img src="./assets/images/devops-bluegreen.svg" alt="Blue Green Strategy" loading="lazy">
+                </div>
+                <div class="project-content">
+                  <div class="project-badge-tag">Deployment Strategy</div>
+                  <h3 class="project-title">Blue-Green Deployment Strategy</h3>
+                  <p class="project-desc">Zero-downtime deployment mechanism with NGINX reverse proxy switching and automated health checks.</p>
+                  <div class="project-footer">
+                    <span class="mini-badge">Zero Downtime</span>
+                    <a href="https://github.com/Paras116255/Blue-Green-Deployment-Devops-project" target="_blank" class="project-link-btn">
+                      <span>GitHub</span> <ion-icon name="open-outline"></ion-icon>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- DevOps Project 5 -->
+            <div class="project-item active" data-filter-item data-category="devops">
+              <div class="project-card">
+                <div class="project-img-box">
+                  <img src="./assets/images/devops-amazon.svg" alt="Amazon DevSecOps" loading="lazy">
+                </div>
+                <div class="project-content">
+                  <div class="project-badge-tag">Cloud Security</div>
+                  <h3 class="project-title">Amazon Clone — DevSecOps</h3>
+                  <p class="project-desc">Automated security auditing, secret scanning, OWASP Dependency Check, and Grafana telemetry.</p>
+                  <div class="project-footer">
+                    <span class="mini-badge">DevSecOps</span>
+                    <a href="https://github.com/Paras116255/DevSecOps-amazon-project" target="_blank" class="project-link-btn">
+                      <span>GitHub</span> <ion-icon name="open-outline"></ion-icon>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- DevOps Project 6 -->
+            <div class="project-item active" data-filter-item data-category="devops">
+              <div class="project-card">
+                <div class="project-img-box">
+                  <img src="./assets/images/devops-jenkins-eks.svg" alt="Automate Jenkins EKS" loading="lazy">
+                </div>
+                <div class="project-content">
+                  <div class="project-badge-tag">IaC & Automation</div>
+                  <h3 class="project-title">Automate Jenkins + Terraform + EKS</h3>
+                  <p class="project-desc">Automated provisioning of AWS EKS clusters using Terraform scripts and Jenkins agent nodes.</p>
+                  <div class="project-footer">
+                    <span class="mini-badge">Terraform</span>
+                    <a href="https://github.com/Paras116255/Automate-Jenkins-Terraform-EKS" target="_blank" class="project-link-btn">
+                      <span>GitHub</span> <ion-icon name="open-outline"></ion-icon>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- DevOps Project 7 -->
+            <div class="project-item active" data-filter-item data-category="devops">
+              <div class="project-card">
+                <div class="project-img-box">
+                  <img src="./assets/images/devops-hotstar.svg" alt="Hotstar K8s" loading="lazy">
+                </div>
+                <div class="project-content">
+                  <div class="project-badge-tag">Kubernetes</div>
+                  <h3 class="project-title">Hotstar Clone — Kubernetes</h3>
+                  <p class="project-desc">High-concurrency streaming app deployed on K8s with Horizontal Pod Autoscaler (HPA) & Ingress Controller.</p>
+                  <div class="project-footer">
+                    <span class="mini-badge">K8s HPA</span>
+                    <a href="https://github.com/Paras116255/Kubernetes-hotstar" target="_blank" class="project-link-btn">
+                      <span>GitHub</span> <ion-icon name="open-outline"></ion-icon>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- DevOps Project 8 -->
+            <div class="project-item active" data-filter-item data-category="devops">
+              <div class="project-card">
+                <div class="project-img-box">
+                  <img src="./assets/images/devops-microservice.svg" alt="Microservice Architecture" loading="lazy">
+                </div>
+                <div class="project-content">
+                  <div class="project-badge-tag">Microservices</div>
+                  <h3 class="project-title">Microservice Architecture — K8s</h3>
+                  <p class="project-desc">Multi-service cloud deployment with service mesh, persistent volume claims, and centralized logging.</p>
+                  <div class="project-footer">
+                    <span class="mini-badge">Microservices</span>
+                    <a href="https://github.com/Paras116255/Microservice" target="_blank" class="project-link-btn">
+                      <span>GitHub</span> <ion-icon name="open-outline"></ion-icon>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Web Dev Projects -->
+            <div class="project-item active" data-filter-item data-category="web development">
+              <div class="project-card">
+                <div class="project-img-box">
+                  <img src="./assets/images/frabica.png" alt="Frabica" loading="lazy">
+                </div>
+                <div class="project-content">
+                  <div class="project-badge-tag">Web Development</div>
+                  <h3 class="project-title">Frabica.com</h3>
+                  <p class="project-desc">Modern e-commerce & corporate website with high-performance responsive UI and API integrations.</p>
+                  <div class="project-footer">
+                    <span class="mini-badge">Full-Stack</span>
+                    <a href="https://frabica.com/" target="_blank" class="project-link-btn">
+                      <span>Live Site</span> <ion-icon name="open-outline"></ion-icon>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-item active" data-filter-item data-category="web development">
+              <div class="project-card">
+                <div class="project-img-box">
+                  <img src="./assets/images/oneoftwo.png" alt="Oneoftwo" loading="lazy">
+                </div>
+                <div class="project-content">
+                  <div class="project-badge-tag">Web Development</div>
+                  <h3 class="project-title">Oneoftwo.in</h3>
+                  <p class="project-desc">Custom web application with modern layout design and optimized asset loading.</p>
+                  <div class="project-footer">
+                    <span class="mini-badge">Web Platform</span>
+                    <a href="https://oneoftwo.in/" target="_blank" class="project-link-btn">
+                      <span>Live Site</span> <ion-icon name="open-outline"></ion-icon>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-item active" data-filter-item data-category="web development">
+              <div class="project-card">
+                <div class="project-img-box">
+                  <img src="./assets/images/hypeX.png" alt="Hypex" loading="lazy">
+                </div>
+                <div class="project-content">
+                  <div class="project-badge-tag">Web Development</div>
+                  <h3 class="project-title">Hypexmarketing.in</h3>
+                  <p class="project-desc">Digital marketing agency web platform with sleek UI components and lead conversion forms.</p>
+                  <div class="project-footer">
+                    <span class="mini-badge">Marketing Tech</span>
+                    <a href="https://hypexmarketing.in/" target="_blank" class="project-link-btn">
+                      <span>Live Site</span> <ion-icon name="open-outline"></ion-icon>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
         </section>
-
       </article>
 
-
-
-
-
-      <!--
-        - #CONTACT
-      -->
-
-      <article class="contact" data-page="contact">
-
+      <!-- #BLOG -->
+      <article class="blog" data-page="blog">
         <header>
-          <h2 class="h2 article-title">Contact</h2>
+          <h2 class="h2 article-title">DevOps Blog & Guides</h2>
         </header>
 
-        <section class="mapbox" data-mapbox>
-          <figure>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7005.4936970062045!2d77.09831164581763!3d28.607370352713676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1caa1a6c159b%3A0x875b240087c3f603!2sMohan%20Nagar%2C%20Block%20WZ%2C%20Main%20Sagarpur%2C%20Sagar%20Pur%2C%20Delhi!5e0!3m2!1sen!2sin!4v1743011973918!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <section class="blog-grid">
+          <div class="blog-card">
+            <a href="https://roadmap.sh/devops" target="_blank">
+              <div class="blog-banner-box">
+                <img src="./assets/images/devops.png" alt="DevOps Roadmap" loading="lazy">
+              </div>
+              <div class="blog-content">
+                <div class="blog-meta">
+                  <span>DEVOPS ROADMAP</span> • <time datetime="2026-05-01">Updated 2026</time>
+                </div>
+                <h3 class="blog-item-title">Comprehensive Roadmap to Senior DevOps</h3>
+                <p class="blog-text">Mastering AWS, Kubernetes, Infrastructure as Code with Terraform, CI/CD automation, and Site Reliability Engineering.</p>
+              </div>
+            </a>
+          </div>
+        </section>
+      </article>
+
+      <!-- #CONTACT -->
+      <article class="contact" data-page="contact">
+        <header>
+          <h2 class="h2 article-title">Get In Touch</h2>
+        </header>
+
+        <section class="mapbox">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7005.4936970062045!2d77.09831164581763!3d28.607370352713676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1caa1a6c159b%3A0x875b240087c3f603!2sMohan%20Nagar%2C%20Block%20WZ%2C%20Main%20Sagarpur%2C%20Sagar%20Pur%2C%20Delhi!5e0!3m2!1sen!2sin!4v1743011973918!5m2!1sen!2sin" allowfullscreen="" loading="lazy"></iframe>
         </section>
 
         <section class="contact-form">
-
-          <h3 class="h3 form-title">Contact Form</h3>
-
+          <h3 class="h3" style="margin-bottom: 16px;">Send a Message</h3>
           <form action="#" class="form" data-form>
-
-            <div class="input-wrapper">
-              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
-
-              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            <div class="form-input-grid">
+              <input type="text" name="fullname" class="form-input" placeholder="Your Full Name" required data-form-input>
+              <input type="email" name="email" class="form-input" placeholder="Your Email Address" required data-form-input>
             </div>
-
-            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
-
-            <button class="form-btn" type="submit">
-              <img src="/assets/images/paper.png" width="20px", height="20px">
-              <span>Send Message</span>
+            <textarea name="message" class="form-input" placeholder="Project details or DevOps inquiry..." required data-form-input></textarea>
+            <button class="form-btn" type="submit" data-form-btn disabled>
+              <ion-icon name="paper-plane-outline"></ion-icon>
+              <span>Transmit Message</span>
             </button>
-
           </form>
-
         </section>
-
       </article>
 
     </div>
-
   </main>
 
-
-
-
-
-
-  <!--
-    - custom js link
-  -->
+  <!-- Custom JS -->
   <script src="./assets/js/script.js"></script>
 
-  <!--
-    - ionicon link
-  -->
+  <!-- Ionicons -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
